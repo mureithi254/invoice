@@ -1,0 +1,53 @@
+div.admin-nav{
+   text-align: right;
+   float:right;
+   clear: right;
+   padding-top: 10px;
+   padding-left: 600px;
+
+}
+
+li.brand,span.brand2{
+	font-family: serif;
+	font-size: xx-large;
+	color: rgb(0,149,221);
+}
+.invoice-search{
+	float: left;
+    width: 40%;
+    margin-left: 9em;
+	margin-top: .7em;
+}
+.invoice-search input[type = "text"]{
+    outline: none;
+    border: none;
+    background:#EFEFEF;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    width: 78%;
+    float: left;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.invoice-search input[type = "submit"]{
+	outline: none;
+    border: none;
+    background: #212121;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    width: 22%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.invoice-search input[type = "submit"]:hover{
+	background: rgb(255,15,15);
+}
+div.invoiceform-edit{
+    padding-left: 35px;
+}
+div.form-group{
+    width: 550px;
+}

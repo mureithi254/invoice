@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Invoice</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript">src = "js/bootstrap.min.js" </script>
+
+<!-- //js -->
+<!-- fonts -->
+<link href='//fonts.googleapis.com/css?family=Convergence' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+</head>
+<body>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">src = "js/bootstrap.min.js" </script>
+
+<!-- menu bar -->
+<nav class = "navbar navbar-default">
+  <div class = "container-fluid">
+    <div class="navbar-header">
+      <li class="brand"><a class = "navbar-brand"  href="index.html"><span class="brand2">Invoice</span></a>
+    </div></li>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="faq.html">FAQs</a></li>
+      <li><a href="contact.html">Contact.html</a></li>
+         
+               <div class="admin-nav">
+                <ul class="dropdown"><a class="btn btn-success" class="dropdown-toggle" data-toggle = "dropdown"  href="#">Admin<span class="caret">  </span></a>
+                               <ul class="dropdown-menu">
+                                <li><a href="invoice.html">Invoice</a></li>
+                                <li><a href="employees.html">Employee</a></li>
+                                <li><a href="items.html">items</a></li>
+
+                              </ul>
+
+                      </ul>
+                
+              </div>
+      <li><a href="logout.html">logout</a></li>
+  
+
+    </ul>
+  </div>
+  
+</nav>
+
+<div class="container">
+<form action="" method="">
+<fieldset class="scheduler-border">
+  <legend class="scheduler-border">invoice</legend>
+      <form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2">Id</label>
+    <input type="number" class="form-control" placeholder="eg.1" required="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Category</label>
+   <select class="form-control">
+         <option>web</option>
+         <option>android</option>
+         <option>database</option>
+         <option>sys security</option>
+         <option>blog</option>
+
+     
+   </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Quantity</label>
+    <input type="number" class="form-control"  placeholder="eg.2">
+  </div><div class="form-group">
+    <label for="exampleInputEmail2">Amount</label>
+    <input type="number" class="form-control"  placeholder="eg. ksh.200">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Total Amount</label>
+    <input type="number" class="form-control"  placeholder="automatically calculated">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</fieldset>
+  
+</form>
+  
+</div>
+
+
+
+
+</body>
+</html>
